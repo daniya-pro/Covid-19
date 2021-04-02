@@ -1,0 +1,36 @@
+input[type="text"],
+textarea,
+select {
+    outline: none;
+}
+.center{text-align: center}
+
+.search {
+    margin-top: 0.5px;
+    border: 1px solid #b5b3b3;
+    border-top: 2px solid #b5b3b3;
+    height: 20px;
+    width: -webkit-fill-available;
+
+} 
+.Relative{position: relative}
+.latitudeImg,.longitudeImg {    width: 23px;
+    position: absolute;
+    left: -30px;
+    top: -1px;}
+#info{
+
+text-align: center;
+
+}
+/* .Recovered{color:limegreen}
+.Deaths{color: red}
+.Confirmed{color:orange}
+.Latitude{color:dodgerblue}
+.Longitude{color:deepskyblue}
+.Active{color:#8400ff} */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
