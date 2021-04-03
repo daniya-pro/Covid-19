@@ -40,4 +40,5 @@ fetch(
     });
   })
 );
-var SearchInput = document.getElementById('searchInput');
+var SearchInput = document.getElementById('search');
+SearchInput.addEventListener('keydown')
