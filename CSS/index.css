@@ -23,8 +23,7 @@ select {
 .Relative {
   position: relative;
 }
-.latitudeImg,
-.longitudeImg {
+.CCImage {
   width: 23px;
   position: absolute;
   left: -30px;
