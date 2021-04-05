@@ -11,6 +11,7 @@ urlLink.then((d) =>
       var CountryName = el.Country;
       var CountryCode =el.CountryCode;
       var Confirmed = el.TotalConfirmed;
+      var Deaths = el.TotalDeaths;
       var Recovered = el.TotalRecovered;
 
       document.getElementById("info").innerHTML += `<br> <h1> ${CountryName} </h1> 
