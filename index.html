@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
+    <div id='loading' class="overlay" style="display: block;">
+        <div class="loader p-20"><span> please wait...</span></div> </div>
+ <div id='container' style="display: none;">
     <input placeholder="Search Here ..." type="text" class="center search" id="search">
-    <button class="btn">search</button>
-    <div id='info'>  <br>  </div>
+    <button id="btn" class="btn absolute">search</button>
+    <div id='info'>  <br>  </div>    </div>
     <script src="./JS/index.js"></script>
 </body>
 </html>
