@@ -39,7 +39,6 @@ urlLink().then((d) =>
          `;
     });
      loader.style.display='none'
-     SearchInput.value=''
      container.style.display='block'
  }
 )
@@ -65,7 +64,7 @@ var SearchFetch = () => {
         var CountryName = el.Country;
         var CountryCode = el.CountryCode;
     
-
+console.log(CountryCode,CountryName)
         if (
           SearchInput.value.toLowerCase() === CountryName.toLowerCase() || CountryCode.toLowerCase() === SearchInput.value.toLowerCase()
         ) {
@@ -100,7 +99,6 @@ info.innerHTML =`<p class ='red' >please check if your spelling or the country c
     });
     setTimeout(()=>{    loader.style.display='none'
     container.style.display='block'},1000)
-    SearchInput.value=''
 
 
 };
